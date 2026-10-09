@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "pancake-analytics": {
+      "type": "http",
+      "url": "https://analytics.pancake.ai/mcp",
+      "headers": {
+        "Authorization": "Bearer ${PANCAKE_ANALYTICS_TOKEN}"
+      }
+    }
+  }
+}
